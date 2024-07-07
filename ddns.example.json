@@ -1,0 +1,15 @@
+{
+  "api_token": "your clouddlare api token",
+  "zone_id": "your zone id",
+  "records": [
+    {
+      "content": "ip address or text",
+      "name": "example.com",
+      "comment": "some comment (optional, leave empty)",
+      "proxied": true,
+      "type": "A",
+      "ttl": 3600,
+      "id": "the dns record id"
+    }
+  ]
+}
